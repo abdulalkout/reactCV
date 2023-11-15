@@ -17,11 +17,9 @@ function JobExp(props) {
       <div>
         <h4>{props.jobExp[0]}</h4>
         <ul>
-          <li>{props.jobExp[1][0]}</li>
-          <li>{props.jobExp[1][1]}</li>
-          <li>{props.jobExp[1][2]}</li>
-          <li>{props.jobExp[1][3]}</li>
-          <li>{props.jobExp[1][4]}</li>
+          {props.jobExp[1].map((element, index) => (
+            <li key={index}>{element}</li>
+          ))}
         </ul>
       </div>
     </div>

@@ -12,17 +12,17 @@ function TechSkills(props) {
       <div>
         <h4>Coding Languages</h4>
         <ul>
-          <li>{props.lang[0]}</li>
-          <li>{props.lang[1]}</li>
-          <li>{props.lang[2]}</li>
+          {props.lang.map((element, index) => (
+            <li key={index}>{element}</li>
+          ))}
         </ul>
       </div>
       <div>
         <h4>Frameworks</h4>
         <ul>
-          <li>{props.frame[0]}</li>
-          <li>{props.frame[1]}</li>
-          <li>{props.frame[2]}</li>
+          {props.frame.map((element, index) => (
+            <li key={index}>{element}</li>
+          ))}
         </ul>
       </div>
     </div>

@@ -17,10 +17,16 @@ const myInfo = {
     ],
   ],
   languages: ["Html", "JavaScript", "CSS"],
-  framework: ["React", "Redux", "Springboot", "Nodejs", "Express"],
+  framework: ["React", "Node.js", "Express.js"],
   Education: [
-    "Eastern Mediterranean University",
-    "Bachelor’s Degree in Electrical and Electronic Engineering (ABET Certified )",
+    [
+      "Eastern Mediterranean University",
+      "Bachelor’s Degree in Electrical and Electronic Engineering (ABET Certified )",
+    ],
+    [
+      "PerScolas",
+      "Completed 450+ hours on hands of daily coding in HTML, Javascript, CSS, and SQL. Utilized Agile environment and successfully deployed various projects utilizing SDLC. ",
+    ],
   ],
   headLins: ["SKILLS", "EXPERIENCE", "EDUCATION"],
 };
